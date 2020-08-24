@@ -1,0 +1,141 @@
+                /* Extra small devices (portrait phones, less than 576px)*/
+                /* No media query since this is the default in Bootstrap*/
+                /* Small devices (landscape phones, 576px and up)*/
+                
+                @media only screen and (max-width: 340px) {}
+                
+                @media only screen and (max-width: 576px) {
+                    header .container .row .text-center h1 {
+                        font-size: 2.1rem;
+                    }
+                    section .container h2 {
+                        font-size: 2.1rem !important;
+                    }
+                    .contact-section .container-fluid .row .col-md .icon>.fa {
+                        font-size: 1.5rem !important;
+                    }
+                    .contact-section .container-fluid .row .col-md .col-md-6>h5 {
+                        font-size: 1.2rem !important;
+                    }
+                    .listings .container .pagination .page-link {
+                        font-size: 0.9rem
+                    }
+                    .contact-section .container-fluid .row .side-panel {
+                        padding-top: 10vmin;
+                    }
+                    #modalSearch .modal-dialog .modal-body form input {
+                        width: 80%;
+                    }
+                    #modalSearch .modal-dialog .modal-body form button {
+                        margin-left: 3px;
+                    }
+                    .navbar .container .collapse .btn {
+                        margin-bottom: 5px;
+                    }
+                    .container .row .col-md-5 .rating-wrap {
+                        margin-top: 15vmin;
+                    }
+                    footer .container-fluid .row .col-md-3 form>input {
+                        width: 60%;
+                    }
+                    footer .container-fluid .row .col-md-3 form .search-btn {
+                        margin-left: 5px;
+                    }
+                    .section-2 .container .row .content-right>div {
+                        margin: 0 auto;
+                        width: 100%;
+                    }
+                    .slider__txt {
+                        font-size: 1.2rem;
+                    }
+                    .slider__caption {
+                        font-size: 1.1rem;
+                    }
+                    .section-3 .container .row div {
+                        display: inline-block;
+                    }
+                    footer .container-fluid .row h2 {
+                        font-size: 1.7rem !important;
+                    }
+                    footer .container-fluid .row p {
+                        font-size: 1.2rem !important;
+                    }
+                    footer .container-fluid .row ul li {
+                        font-size: 1.1rem !important;
+                    }
+                    .jumbotron {
+                        width: 90%;
+                    }
+                    .jumbotron>h1 {
+                        font-size: 1.9rem !important;
+                    }
+                    .modal-content-img {
+                        width: 100%;
+                    }
+                    .card .card-body div .price>.old,
+                    .current {
+                        font-size: 1rem !important;
+                    }
+                    .card .card-body div .price>.current::before {
+                        content: "\a";
+                        white-space: pre;
+                    }
+                    #caption {
+                        font-size: 1.3rem !important;
+                    }
+                    .section-4 .container .row .col-md-4 .text .media-body p {
+                        text-align: justify;
+                    }
+                    .section-5 .container .d-flex .text-white .numbers .justify-content-center .block-18 {
+                        display: block;
+                    }
+                    .section-5 .container .d-flex .text-white .numbers .justify-content-center .block-18 .rect .number {
+                        font-size: 1.8rem !important;
+                    }
+                    .section-5 .container .d-flex .text-white .numbers .justify-content-center .block-18 .text span {
+                        font-size: 1.2rem;
+                        font-weight: 600;
+                    }
+                    .section-5 .container .d-flex .text-white>h1 {
+                        font-size: 2.5rem;
+                    }
+                    .section-5 .container .d-flex .text-white p {
+                        width: 100%;
+                        font-size: 1.1rem;
+                    }
+                    .section-7 .container .news form>input {
+                        width: 100%;
+                        height: 2.6rem;
+                        font-size: 1rem;
+                    }
+                    .section-7 .container .news form>button {
+                        width: 100%;
+                        height: 2.6rem;
+                        font-size: 1rem;
+                        padding: 5px;
+                    }
+                }
+                /* Medium devices (tablets, 768px and up)*/
+                
+                @media only screen and (max-width: 768px) {
+                    .section-2 .container .row .content-right>div {
+                        margin: 0 auto;
+                        width: 100%;
+                    }
+                    .section-5 .container .d-flex .text-white .numbers .justify-content-center .block-18 .rect .number {
+                        font-size: 1.8rem !important;
+                    }
+                    .section-5 .container .d-flex .text-white .numbers .justify-content-center .block-18 .text span {
+                        font-size: 1.2rem;
+                        font-weight: 600;
+                    }
+                    .section-5 .container .d-flex .text-white>h1 {
+                        font-size: 2.5rem;
+                    }
+                }
+                /* Large devices (desktops, 992px and up)*/
+                
+                @media (min-width: 992px) {}
+                /* Extra large devices (large desktops, 1200px and up) */
+                
+                @media (min-width: 1200px) {}
